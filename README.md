@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+```javascript
+SANITY_DATASET_NAME=process.env.SANITY_DATASET_NAME
+SANITY_PROJECT_ID=process.env.SANITY_PROJECT_ID
+
+
 First, run the development server:
 
 ```bash
