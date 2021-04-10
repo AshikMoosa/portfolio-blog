@@ -20,7 +20,7 @@ const PortfolioItem = ({title,subtitle,image, link}) => {
         <div className="view overlay">
        
           <Card.Img
-          style={{height:"300px"}}
+          style={{height:"250px"}}
           src={
             urlFor(image)
             .crop('center')

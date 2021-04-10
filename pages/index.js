@@ -13,7 +13,7 @@ const Index = () => {
       className="cover">
       <div className="main-section">
         
-        <Container className="mx-auto col-md-8" style={{paddingTop:"70px"}}>
+        <Container className="mx-auto col-md-8" style={{}}>
         <div className={`hero-welcome-text `}>
                 <h1 className={`hero-welcome-text-spec`}>
                   Hello, I'm <span style={{color:"crimson"}}>Ashik Moosa</span>.<br/>
@@ -22,10 +22,10 @@ const Index = () => {
               <Typed
                 loop
                 typeSpeed={30}
-                backSpeed={70}
+                backSpeed={20}
                 strings={ROLES}
                 backDelay={1000}
-                loopCount={1}
+                loopCount={0}
                 showCursor
                 className={`self-typed `}
                 cursorChar="|"

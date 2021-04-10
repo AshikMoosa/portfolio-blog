@@ -8,7 +8,7 @@ export default function BlogHeader({title,subtitle,image,author,date}) {
           className="rounded-circle mr-3"
           height="50px"
           width="50px"
-          alt="avatar"/>
+          alt="avatar" />
 
         {author?.name || 'Anonymous'}
         {', '} {date}
@@ -16,7 +16,7 @@ export default function BlogHeader({title,subtitle,image,author,date}) {
       <h1 className="font-weight-bold blog-detail-header-title mb-0">{title}</h1>
       <h2 className="blog-detail-header-subtitle mb-3">{subtitle}</h2>
         {/* Check if contains cover image */}
-      <img className="img-fluid rounded" src={image} alt="TODO" />
+      <img className="img-fluid rounded" src={image} alt="TODO" className="col-md-12" />
     </div>
   )
 }

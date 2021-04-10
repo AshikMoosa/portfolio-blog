@@ -11,7 +11,7 @@ const BlogDetail = ({blog}) => {
   return (
     <PageLayout className="blog-detail-page">
       <Row>
-        <Col md={{ span: 10, offset: 1 }}>
+        <div style={{display:"table", paddingLeft:"10px", paddingRight:"10px"}}>
           <BlogHeader 
             author={blog.author}
             title={blog.title}
@@ -21,7 +21,7 @@ const BlogDetail = ({blog}) => {
           />
           <hr/>
          <BlogContent  content = {blog.content}/>
-         </Col>
+         </div>
       </Row>
     </PageLayout>
   )

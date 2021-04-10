@@ -32,7 +32,7 @@ a:hover {
 
 .about-me {
   text-align: justify;
-  padding: 10px;
+  padding: 20px;
   font-size: medium;
 }
 
@@ -421,7 +421,7 @@ a:hover {
 
 .hero-section{
   
-  width: 400px;
+  //width: 400px;
 
   margin-bottom: 30px;
   h2 {
@@ -432,7 +432,7 @@ a:hover {
 
   perspective: 1000px;
 
-  width: 400px;
+  //width: 400px;
   position: relative;
 
   &-content {
@@ -453,7 +453,7 @@ a:hover {
   
  
   font-size: 38px;
-  margin-top: 80px;
+  
   font-weight: 300;
 }
 
@@ -492,7 +492,7 @@ a:hover {
 
 @media (max-width: 991px) {
   .hero-section {
-    width: 400px;
+   // width: 400px;
   }
 
   .hero-welcome-text > h1 {
@@ -538,11 +538,14 @@ a:hover {
 .main-section {
   top: 150px;
   width: 100%;
-  padding: 0px 0 0;
+  padding-top: 180px;
+  padding-bottom: 200px;
 
-  .row {
-    padding-top: 230px;
-  }
+  
+}
+
+.kudos {
+  flex-basis: auto;
 }
 
 .background-image {

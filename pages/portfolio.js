@@ -9,9 +9,9 @@ export default function Blog({portfolio}) {
   return (
     <PageLayout>
       <h1>Portfolio<hr /></h1>
-      <Row className="mb-5"  style={{ padding: '20px 80px' }}>
+      <Row style={{ padding: '20px 0px' }}>
         {portfolio.map(portfolio => 
-        <Col lg="6" md="6" key={portfolio.slug} style={{ padding: '10px 40px' }} >
+        <Col lg="6" md="6" key={portfolio.slug} style={{ padding: '10px 25px' }} >
       <PortfolioItem  title={portfolio.title} subtitle={portfolio.subtitle} image={portfolio.coverImage} link={portfolio.link} />
         </Col>
        )}
