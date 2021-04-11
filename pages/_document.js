@@ -6,9 +6,11 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L9MHVRE2VV"></script>
-       
-          <script
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-L9MHVRE2VV"
+        />
+        <script
             dangerouslySetInnerHTML={{
               __html: `
                     window.dataLayer = window.dataLayer || [];
@@ -17,7 +19,7 @@ class MyDocument extends Document {
                     gtag('config', 'G-L9MHVRE2VV');
                 `,
             }}
-          />
+        />
         </Head>
         <body>
           <Main />
